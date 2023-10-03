@@ -1,0 +1,26 @@
+*{
+    background-color: #3b3a3a;
+}
+.titulo-animado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letra{
+    font-family:sans-serif;
+    font-weight: bolder;
+    font-size:100px;
+    transition: 0.4s;
+    transform: translateX(0);
+    cursor: grab;
+    color: #fff;
+}
+
+.letra:hover{
+    transform: translateY(-1rem);
+    background: -webkit-linear-gradient(120deg,
+    hsl(207, 100%, 50%), hsl(207, 89%, 64%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

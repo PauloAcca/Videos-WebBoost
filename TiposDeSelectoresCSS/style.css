@@ -1,0 +1,55 @@
+* {
+    /* Estilos para todos los elementos en la página */
+}
+
+p {
+    /* Estilos para párrafos */
+}
+
+.mi-clase {
+    /* Estilos para elementos con la clase "mi-clase" */
+}
+
+#mi-id {
+    /* Estilos para el elemento con el ID "mi-id" */
+}
+
+#mi-div p {
+    /* Estilos para párrafos dentro de #mi-div */
+}
+
+ol > li {
+    /* Estilos para elementos li que son hijos directos de ol */
+}
+
+[href] {
+    /* Estilos para elementos con atributo href */
+}
+
+h2 + p {
+    /* Estilos para el párrafo que sigue inmediatamente a un h2 */
+}
+
+h2 ~ p {
+    /* Estilos para todos los párrafos que siguen a un h2 */
+}
+
+h1, h2, h3 {
+    /* Estilos para h1, h2 y h3 */
+}
+
+a:hover {
+    /* Estilos cuando se coloca el mouse sobre enlaces */
+}
+  
+li:nth-child(odd) {
+    /* Estilos para elementos li impares en una lista */
+}
+
+p::before {
+    content: "Antes de este párrafo: ";
+}
+  
+p::after {
+    content: "Después de este párrafo.";
+}

@@ -1,0 +1,26 @@
+*{
+    background-color: #3b3a3a;
+}
+.container{
+    height: 250px;
+    width: 369px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 6px solid rgb(255, 255, 255);
+    margin-left: 300px;
+    margin-top: 300px;
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.container img:hover{
+    transform: scale(1.3);
+    filter: grayscale(0%);
+}

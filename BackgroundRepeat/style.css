@@ -1,0 +1,23 @@
+*{
+    background-color: #3b3a3a;
+}
+
+.container{
+    margin-top: 100px;
+    
+    background-image: url(./logo-recortado.png);
+    height: 100px;
+    width: 50%;
+    background-size:contain;
+    margin-bottom: 80px;
+}
+
+.img1{
+background-repeat: repeat;
+}
+.img2{
+background-repeat: round;   
+}
+.img3{
+background-repeat: space;    
+}

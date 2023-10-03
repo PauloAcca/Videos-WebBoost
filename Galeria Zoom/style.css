@@ -1,0 +1,25 @@
+body {
+    background-color: #141417;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.mainContainer{
+    display: flex;
+    height: 20rem;
+    width: 1100px;
+    gap: 1;
+}
+.mainContainer div{
+    flex: 1;
+    margin: 5px;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.mainContainer div:hover{
+    flex: 3;
+}
